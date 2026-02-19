@@ -5,7 +5,7 @@
       "use": "@vercel/python"
     }
   ],
-  "rewrite" : [
+  "rewrites" : [
     {
       "source" : "/image.png",
       "destination": "api/main.py"
