@@ -7,9 +7,9 @@
   ],
   "rewrite" : [
     {
-      "source" : "api/image.png",
+      "source" : "/image.png",
       "destination": "api/main.py"
-    }
+    },
     {
       "source" : "/(.*)",
       "destination": "api/main.py"
